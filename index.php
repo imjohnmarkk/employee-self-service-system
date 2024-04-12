@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="lofi">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="src/styles.css" />
     <title>Log In</title>
 </head>
 
@@ -26,7 +26,7 @@
                             <span class="label-text">Username</span>
                         </label>
                         <input type="text" placeholder="Username" class="input input-bordered" required name="username"
-                            id="username" />
+                            id="username" autocomplete="off" />
                     </div>
                     <div class="form-control">
                         <label class="label" for="password">
@@ -42,6 +42,8 @@
                         <button class="btn btn-primary">Login</button>
                     </div>
                 </form>
+                <a href="./src/dashboard/user-dashboard.php" class="btn btn-primary">User Dashboard</a>
+                <a href="./src/dashboard/admin-dashboard.php" class="btn btn-primary">Admin Dashboard</a>
             </div>
         </div>
     </div>
