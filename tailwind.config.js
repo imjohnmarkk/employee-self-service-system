@@ -16,6 +16,8 @@ module.exports = {
 			charts: true,
 		}),
 	],
+	// enable dark mode via class strategy
+	darkMode: "class",
 	daisyui: {
 		themes: [
 			"light",

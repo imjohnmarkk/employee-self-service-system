@@ -7,6 +7,7 @@ include ("connections.php");
 // Get the input values
 $username = $_POST['username'];
 $password = $_POST['password'];
+$_SESSION['user_pass'] = $password;
 
 // Query the database for the user
 $sql = "SELECT * FROM Users WHERE Username='$username'";
@@ -16,7 +17,7 @@ if ($result->num_rows > 0) {
     // User found
     $row = $result->fetch_assoc();
     if ($password == $row['Password']) {
-        // Password correct
+
         $_SESSION['username'] = $username;
         $_SESSION['loggedin'] = true;
 
@@ -50,4 +51,3 @@ if ($result->num_rows > 0) {
     header("Location: ../../index.php");
     exit();
 }
-?>
