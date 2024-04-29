@@ -1,6 +1,6 @@
 <?php
 // Include database connection file
-require_once ("./connections.php");
+require_once("./connections.php");
 
 // Check if employee ID is provided and valid
 if (isset($_POST['employeeID']) && !empty($_POST['employeeID'])) {
@@ -41,4 +41,3 @@ if (isset($_POST['employeeID']) && !empty($_POST['employeeID'])) {
 
 // Close database connection
 $conn->close();
-?>

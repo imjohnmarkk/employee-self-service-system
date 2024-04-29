@@ -8,56 +8,57 @@
                 </a>
             </li>
             <li>
-                <a href="../admin-pages/vendor-management.php" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                    <span class="flex-1 ms-3 whitespace-nowrap"> Vendor Management</span>
+                <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+
+                    <span class="flex-1 ms-3 whitespace-nowrap"> Employee Management</span>
                 </a>
             </li>
             <li>
                 <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
 
-                    <span class="flex-1 ms-3 whitespace-nowrap"> Sidebar item</span>
+                    <span class="flex-1 ms-3 whitespace-nowrap"> Time and Attendance</span>
                 </a>
             </li>
             <li>
                 <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
 
-                    <span class="flex-1 ms-3 whitespace-nowrap">Sidebar item</span>
+                    <span class="flex-1 ms-3 whitespace-nowrap">Payroll and Compensation</span>
                 </a>
             </li>
             <li>
                 <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
 
-                    <span class="flex-1 ms-3 whitespace-nowrap">Sidebar item</span>
+                    <span class="flex-1 ms-3 whitespace-nowrap">Performance Management</span>
                 </a>
             </li>
             <li>
                 <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
 
-                    <span class="flex-1 ms-3 whitespace-nowrap">Sidebar item</span>
+                    <span class="flex-1 ms-3 whitespace-nowrap">Training and Development</span>
                 </a>
             </li>
             <li>
                 <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
 
-                    <span class="flex-1 ms-3 whitespace-nowrap">Sidebar item</span>
+                    <span class="flex-1 ms-3 whitespace-nowrap">Benefits Administration</span>
                 </a>
             </li>
             <li>
                 <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
 
-                    <span class="ms-3">Sidebar item</span>
+                    <span class="ms-3">Communication and Announcements</span>
                 </a>
             </li>
             <li>
                 <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
 
-                    <span class="ms-3">Sidebar item</span>
+                    <span class="ms-3">Reports and Analytics</span>
                 </a>
             </li>
             <li>
                 <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
 
-                    <span class="ms-3">Sidebar item</span>
+                    <span class="ms-3">Settings and Configuration</span>
                 </a>
             </li>
         </ul>

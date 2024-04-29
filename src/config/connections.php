@@ -1,9 +1,9 @@
 <?php
 // Database connection parameters
-$servername = "localhost";
+$servername = "localhost"; //change the servername to localhost:3307 if using the window os
 $username = "root";
 $password = "";
-$database = "employees_self_service";
+$database = "vendor_portal";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);

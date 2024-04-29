@@ -2,35 +2,37 @@
 session_start();
 
 // Include the database connection file
-include ("connections.php");
+include("connections.php");
 
 // Get the input values
-$username = $_POST['username'];
+$email = $_POST['email'];
 $password = $_POST['password'];
 $_SESSION['user_pass'] = $password;
-
+$loginSuccess = 'Login Successfully';
 // Query the database for the user
-$sql = "SELECT * FROM Users WHERE Username='$username'";
+$sql = "SELECT * FROM users WHERE email='$email'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // User found
     $row = $result->fetch_assoc();
-    if ($password == $row['Password']) {
+    if ($password == $row['password']) {
 
         $_SESSION['username'] = $username;
         $_SESSION['loggedin'] = true;
 
         // Check user role
-        $role = $row['Role'];
+        $role = $row['role'];
         $_SESSION['role'] = $role;
 
         if ($role == "user") {
             // Redirect to user dashboard
+            $_SESSION['login_success'] = "Login Successfully";
             header("Location: ../dashboard/user-dashboard.php");
             exit();
         } elseif ($role == "admin") {
             // Redirect to admin dashboard
+            $_SESSION['login_success'] = "Login Successfully";
             header("Location: ../dashboard/admin-dashboard.php");
             exit();
         } else {
